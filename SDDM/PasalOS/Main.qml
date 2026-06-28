@@ -341,7 +341,7 @@ Item {
                     Component.onCompleted: {
                         // as we can't bind inside ListElement
                         setProperty(0, "name", i18ndc("plasma-desktop-sddm-theme", "@info:usagetip", "Type in Username and Password"));
-                        setProperty(0, "icon", Qt.resolvedUrl("faces/.face.icon"))
+                        setProperty(0, "icon", "")
                     }
                 }
 
